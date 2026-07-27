@@ -8,7 +8,16 @@ export default function Home() {
       <h1 className="text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl dark:text-white">
         MINNIE&apos;s First Project
       </h1>
-g-zinc-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-zinc-700 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
+
+      <p className="mt-4 max-w-md text-lg text-zinc-600 dark:text-zinc-300">
+        I'm Not A Vibecoder
+        난 바이브 코더는 아니다.
+      </p>
+
+      <div className="mt-8 flex gap-3">
+        <a
+          href="https://github.com/MINHEEHAN-MINNIE"
+          className="rounded-full bg-zinc-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-zinc-700 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
         >
           내 GitHub
         </a>
