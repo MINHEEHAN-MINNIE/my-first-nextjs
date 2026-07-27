@@ -12,7 +12,7 @@ export default function Home() {
       <p className="mt-4 max-w-md text-lg text-zinc-600 dark:text-zinc-300">
         I'm Not A Vibecoder
         난 바이브 코더는 아니다.
-        Branch 실험 중
+        Branch Graph
       </p>
 
       <div className="mt-8 flex gap-3">
