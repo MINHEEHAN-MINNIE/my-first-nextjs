@@ -12,6 +12,48 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* ---------------------------------------------------------------
+   Revolut 디자인 시스템 토큰  (출처: docs/DESIGN.md)
+   문서에 적힌 숫자를 그대로 옮긴 것. 화면에서는 이 이름만 쓴다.
+   --------------------------------------------------------------- */
+@theme {
+  /* 브랜드 — 아껴 쓴다. 한 화면에 하나 이상 나오면 과한 것 */
+  --color-brand: #494fdf;
+  --color-brand-bright: #4f55f1;
+  --color-brand-deep: #3a40c4;
+
+  /* 캔버스 — 진짜 검정. 근사한 검정(#0a0a0a) 아님 */
+  --color-canvas-dark: #000000;
+  --color-canvas-light: #ffffff;
+  --color-surface-soft: #f4f4f4;
+  --color-surface-elevated: #16181a;
+
+  /* 텍스트 */
+  --color-ink: #191c1f;
+  --color-body-text: #1f2226;
+  --color-mute: #505a63;
+  --color-stone: #8d969e;
+  --color-faint: #c9c9cd;
+
+  /* 선 */
+  --color-hairline-light: #e2e2e7;
+
+  /* 액센트 — 일러스트·아이콘 안에서만. 버튼 배경으로 절대 금지 */
+  --color-accent-teal: #00a87e;
+  --color-accent-pink: #e61e49;
+  --color-accent-warning: #ec7e00;
+  --color-accent-green: #428619;
+
+  /* 모서리 */
+  --radius-input: 12px;   /* 입력창, 다운로드 타일 */
+  --radius-card: 20px;    /* 피처 카드, 플랜 카드 */
+  --radius-mock: 28px;    /* 제품 목업 컨테이너 */
+
+  /* 글꼴 — Aeonik Pro는 유료라 Inter로 대체 (문서 권장) */
+  --font-display: var(--font-inter), system-ui, sans-serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
