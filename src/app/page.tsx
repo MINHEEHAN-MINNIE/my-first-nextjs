@@ -10,7 +10,7 @@ export default function Home() {
       </h1>
 
       <p className="mt-4 max-w-md text-lg text-zinc-600 dark:text-zinc-300">
-        바이브 코딩을 하고 있지만
+        I am not vivecoder.
         난 바이브 코더는 아니다.
       </p>
 
