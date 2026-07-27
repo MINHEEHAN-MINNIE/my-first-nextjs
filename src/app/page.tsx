@@ -22,7 +22,7 @@ export default function Home() {
           내 GitHub
         </a>
         <a
-          href="mailto:hmh9006@gmail.com"
+          href = "mailto:hmh9006@gmail.com"
           className="rounded-full border border-zinc-300 px-6 py-3 text-sm font-medium text-zinc-700 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
         >
           이메일 보내기
